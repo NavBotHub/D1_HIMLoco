@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypelocation="http://download.ros.org/schema/package_format3.xsd"?>
+<package format="3">
+  <name>d1_description</name>
+  <version>1.0.0</version>
+  <description>
+    <p>URDF Description package for d1_description</p>
+    <p>This package contains configuration data, 3D models and launch files for d1_description robot</p>
+  </description>
+  <author>TODO</author>
+  <maintainer email="TODO@email.com">TODO</maintainer>
+  <license>BSD</license>
+
+  <!-- 构建工具依赖 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 运行时依赖 -->
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>rviz2</depend>
+  <depend>gazebo_ros</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+
+  <!-- 导出 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
