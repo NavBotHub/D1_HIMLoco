@@ -1,6 +1,6 @@
 # Practical Quadruped Reinforcement Learning Training Based on HIMLoco
 
-> **Goal**: Use the HIMLoco project as the training stack for Sim2Real reinforcement learning training and deployment on the Damiao Technology D1 quadruped robot.
+> **Goal**: Use the HIMLoco project as the training stack for Sim2Real reinforcement learning training and deployment on the D1 quadruped robot.
 
 HIMLoco (Hybrid Internal Model Locomotion) is an open-source quadruped locomotion control framework from OpenRobotLab, published at **ICLR 2024**. Its core idea is to avoid directly modeling terrain, friction, and other external environment factors. Instead, it uses a **Hybrid Internal Model (HIM)** to estimate velocity and implicit latent variables from the robot's own response, improving locomotion robustness.
 
@@ -128,7 +128,7 @@ The HIM Estimator is optimized with two losses:
 
 | Task | Robot | URDF |
 | --- | --- | --- |
-| `d1` | Damiao Technology quadruped | `resources/robots/d1/urdf/d1_description.urdf` |
+| `d1` | Quadruped | `resources/robots/d1/urdf/d1_description.urdf` |
 | `a1` | Unitree A1 | `resources/robots/a1/urdf/a1.urdf` |
 | `go1` | Unitree Go1 | `resources/robots/go1/urdf/go1.urdf` |
 | `aliengo` | Unitree AlienGo | `resources/robots/aliengo/urdf/aliengo.urdf` |
